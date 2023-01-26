@@ -7,7 +7,7 @@ Serve content from one of a set of B2 regions, depending on the edge server in u
 ## Prerequisites
 
 * Backblaze B2 accounts in two or more of the US West, US East and EU Central regions
-* A bucket in each account, each bucket containing the same set of resources. You can use [Cloud Replication](https://www.backblaze.com/b2/replication.html) to keep the buckets in sync.
+* A bucket in each account, each bucket containing the same set of resources. You can use [Cloud Replication](https://www.backblaze.com/b2/replication.html) to replicate object creation and updates between buckets.
 
 If you are using private buckets, you will also need an application key in each account with at least read access to the bucket.
 
