@@ -46,6 +46,7 @@ lazy_static! {
 
 lazy_static! {
     /// Mapping from POP to ordered list of origins
+    /// POP names and locations are at https://developer.fastly.com/learning/concepts/pop/#complete-list-of-pops
     pub(crate) static ref POP_ORIGIN: HashMap<&'static str, [Origin; 3]> = HashMap::from([
         ("ACC", [EU_CENTRAL, US_EAST, US_WEST]),
         ("ADL", [US_WEST, US_EAST, EU_CENTRAL]),
